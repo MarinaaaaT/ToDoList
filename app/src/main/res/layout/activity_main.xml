@@ -20,13 +20,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/searchBar"
-        android:layout_toRightOf="@id/searchBar"/>
+        android:layout_toRightOf="@id/searchBar"
+        android:onClick="search"/>
 
     <Button
+        android:id = "@+id/clearButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/clear"
-        android:layout_toRightOf="@id/searchButton"/>
+        android:layout_toRightOf="@id/searchButton"
+        android:onClick="clearSearch"/>
 
     <ListView
         android:id="@+id/ToDoList"
